@@ -19,6 +19,86 @@ public class UserInfo {
             return "";
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getOccupation() {
+        return occupation;
+    }
+
+    public void setOccupation(String occupation) {
+        this.occupation = occupation;
+    }
+
+    public String getHobby() {
+        return hobby;
+    }
+
+    public void setHobby(String hobby) {
+        this.hobby = hobby;
+    }
+
+    public String getHandsome() {
+        return handsome;
+    }
+
+    public void setHandsome(String handsome) {
+        this.handsome = handsome;
+    }
+
+    public String getWealth() {
+        return wealth;
+    }
+
+    public void setWealth(String wealth) {
+        this.wealth = wealth;
+    }
+
+    public String getAnnoys() {
+        return annoys;
+    }
+
+    public void setAnnoys(String annoys) {
+        this.annoys = annoys;
+    }
+
+    public String getGoals() {
+        return goals;
+    }
+
+    public void setGoals(String goals) {
+        this.goals = goals;
+    }
+
     @Override
     public String toString() {
         String result = "";
